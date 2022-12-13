@@ -1,0 +1,43 @@
+.button {
+    border: none;
+    cursor: pointer;
+    padding: 6px 8px;
+  }
+  .button--primary {
+    background-color: 0;
+  }
+  .button--warning {
+    background-color: 0;
+  }
+
+.user {
+    width: 100px;
+    padding: 1rem;
+    border: 1px solid #999;
+  }
+  .user__picture {
+    display: block;
+    max-width: 100px;
+    outline: none;
+  }
+  .user__name {
+    padding: 1rem 0;
+    text-transform: capitalize;
+  }
+  .user__bio {
+    margin: 0.85rem 0;
+    line-height: 1.5;
+  }
+  .user--round {
+    border-radius: 1em;
+  }
+  
+  .user--dark-theme {
+    background-color: black;
+  }
+  .user--dark-theme .user__name {
+    color: white;
+  }
+  .user--dark-theme .user__bio {
+    color: white;
+  }

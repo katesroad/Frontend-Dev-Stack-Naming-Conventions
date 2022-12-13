@@ -1,0 +1,13 @@
+.button {
+    border: none;
+    cursor: pointer;
+    padding: 6px 8px;
+
+    &--primary {
+        background-color: blue($color: #000000);
+    }
+
+    &--warning {
+        background-color: red($color: #000000);
+    }
+}

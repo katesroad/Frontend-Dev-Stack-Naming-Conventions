@@ -1,0 +1,43 @@
+// block
+.user {
+  width: 100px;
+  padding: 1rem;
+  border: 1px solid #999;
+
+  // element
+  &__picture {
+    display: block;
+    max-width: 100px;
+    outline: none;
+  }
+
+  &__name {
+    padding: 1rem 0;
+    text-transform: capitalize;
+  }
+
+  &__bio {
+    margin: .85rem 0;
+    line-height: 1.5;
+  }
+
+  // modifier
+  &--round {
+    border-radius: 1em;
+  }
+}
+
+// modifiers on block level
+
+.user--dark-theme {
+    background-color: black;
+
+    .user {
+        &__name {
+            color: white;
+        }
+        &__bio {
+            color: white;
+        }
+    }
+}

@@ -1,6 +1,9 @@
-# Naming Convention
+# Front End Developer Related Naming Convention
 
-About: Naming convention for various languages
+About: Front End Developer Related Naming Convention
+
+---
 
 - CSS
   - [BEN Naming convention in CSS](https://www.youtube.com/watch?v=u-XKw585KqY): Block, Element, Modifier
+  - [Example](./examples/BEM/sass)
